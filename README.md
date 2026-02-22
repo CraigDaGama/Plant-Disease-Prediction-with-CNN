@@ -57,8 +57,8 @@ This project detects diseases in plant leaves using a Convolutional Neural Netwo
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/yourusername/plant-disease-detection.git
-   cd plant-disease-detection
+   git clone https://github.com/CraigDaGama/Plant-Disease-Prediction-with-CNN
+   cd Plant-Disease-Prediction-with-CNN
    ```
 
 2. Install dependencies:
@@ -89,7 +89,7 @@ plant-disease-detection/
 ├── app/
 │   └── main.py                  # Streamlit web app
 ├── trained_model/
-│   ├── model.h5                 # Trained model (replace this)
+│   └── model.h5                 # Trained model (replace this)
 ├── requirements.txt
 ├── Dockerfile
 ├── class_indices.json       # Class indices (replace this)
